@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load model
-with open("concrete_strength_pkl_model.pkl", "rb") as file:
+with open("concrete_strength.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.title("🧱 Concrete Compressive Strength Predictor (MPa)")
